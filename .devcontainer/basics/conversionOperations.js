@@ -28,4 +28,17 @@ console.log(typeof valueInBoolean);
 // "undefined" => true
 // "null" => true
 // "NaN" => true
-// "Infinity" => true 
+// "Infinity" => true
+
+let str1 = "Hello ";
+let str2 = "world";
+let str3 = str1 + str2;
+
+console.log(str1 + str2); // Hello world
+console.log(typeof str3); // string
+console.log("hello world" * 3); // NaN
+console.log(1 + "2");   // 12
+console.log(1 + 2 + "3");   // 33
+console.log("1" + 2 + 3);   // 123
+console.log(1 + "2" + 3);   // 123
+console.log(1 + 2 + 3);   // 6
