@@ -25,3 +25,11 @@ console.log(id1 == id2); // false
 let myObj = { name: 'yash', age: 23, isOnline: true, [id1]: 123 };
 
 console.log(myObj);
+
+let userOne = { id: "ddl", name: "bc", age: 3 }; 
+let userTwo = userOne;
+
+userTwo.age = 24;
+
+console.log(userTwo);
+console.log(userOne);
