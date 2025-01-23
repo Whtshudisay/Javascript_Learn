@@ -13,4 +13,15 @@ console.log(typeof undefined); // undefined is undefined
 // null => standalone data type
 // undefined
 // symbol => unique identifier
-// objects 
+// objects
+
+
+const id1 = Symbol("id");
+const id2 = Symbol("id");
+
+console.log(id1 === id2); // false
+console.log(id1 == id2); // false
+
+let myObj = { name: 'yash', age: 23, isOnline: true, [id1]: 123 };
+
+console.log(myObj);
