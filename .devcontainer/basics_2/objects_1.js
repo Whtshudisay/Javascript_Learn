@@ -43,7 +43,9 @@ console.log(myUser['mySym']);// interview
 
 const func3 = function () {
     console.log("Hello World I am Js User !");
-}
-
-myUser = {...myUser, "greetings": func3};
+};
+myUser.greetings = func3;
 console.log(myUser);
+myUser.greetings();
+
+
