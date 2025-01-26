@@ -22,3 +22,22 @@ function arrFunction(arr) {
 let arr = [12, 54, 5, 67, 47, 468, 11];
 arrFunction(arr);
 
+
+function calculateCartPrice(...nums) {
+    return nums;
+}
+console.log(calculateCartPrice(12, 34, 3, 55, 7));
+
+function CartPrice(val1 , val2, ...nums) {
+    return nums;
+}
+console.log(CartPrice(12, 34, 3, 55, 7));
+
+let myUser = {
+    name: 'RAM',
+    location: 'Uttar Pradesh',
+};
+function objectFunction(anyObject) {
+    console.log(`Name = ${anyObject.name} and his/her location = ${anyObject.location}`);
+};
+objectFunction(myUser);
