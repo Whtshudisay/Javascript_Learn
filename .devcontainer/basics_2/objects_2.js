@@ -56,3 +56,4 @@ console.log(b);
 
 //JSON stands for JavaScript Object Notation. It is a lightweight, text-based data format used for storing and exchanging data between systems. JSON is easy to read and write for both humans and machines, making it a popular choice for APIs, web applications, and configurations.
 // JSON is returnred by backend 
+
