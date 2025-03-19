@@ -1,0 +1,14 @@
+{
+  "name": "artster",
+  "version": "1.0.0",
+  "description": "art",
+  "main": "art.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "none",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.8.0"
+  }
+}
